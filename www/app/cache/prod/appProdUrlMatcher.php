@@ -27,6 +27,110 @@ class appProdUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirecta
         $context = $this->context;
         $request = $this->request;
 
+        if (0 === strpos($pathinfo, '/buildings')) {
+            // study_app_buildings
+            if ($pathinfo === '/buildings') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_buildings;
+                }
+
+                return array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\BuildingController::indexAction',  '_route' => 'study_app_buildings',);
+            }
+            not_study_app_buildings:
+
+            // study_app_buildings_page
+            if (0 === strpos($pathinfo, '/buildings/page') && preg_match('#^/buildings/page/(?P<page>[^/]++)$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_buildings_page;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'study_app_buildings_page')), array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\BuildingController::pageAction',));
+            }
+            not_study_app_buildings_page:
+
+        }
+
+        // studyapp_api_default_index
+        if (0 === strpos($pathinfo, '/hello') && preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'studyapp_api_default_index')), array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\DefaultController::indexAction',));
+        }
+
+        if (0 === strpos($pathinfo, '/firms')) {
+            // study_app_firms
+            if ($pathinfo === '/firms') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_firms;
+                }
+
+                return array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\FirmController::indexAction',  '_route' => 'study_app_firms',);
+            }
+            not_study_app_firms:
+
+            // study_app_firms_by_id
+            if (preg_match('#^/firms/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_firms_by_id;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'study_app_firms_by_id')), array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\FirmController::firmAction',));
+            }
+            not_study_app_firms_by_id:
+
+            // study_app_firms_page
+            if (0 === strpos($pathinfo, '/firms/page') && preg_match('#^/firms/page/(?P<page>[^/]++)$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_firms_page;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'study_app_firms_page')), array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\FirmController::pageAction',));
+            }
+            not_study_app_firms_page:
+
+        }
+
+        if (0 === strpos($pathinfo, '/rubrics')) {
+            // study_app_rubrics_branch
+            if (preg_match('#^/rubrics/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_rubrics_branch;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'study_app_rubrics_branch')), array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\RubricController::treeAction',));
+            }
+            not_study_app_rubrics_branch:
+
+            // study_app_rubrics
+            if ($pathinfo === '/rubrics') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_rubrics;
+                }
+
+                return array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\RubricController::indexAction',  '_route' => 'study_app_rubrics',);
+            }
+            not_study_app_rubrics:
+
+        }
+
+        if (0 === strpos($pathinfo, '/hello')) {
+            // studyapp_location_default_index
+            if (preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'studyapp_location_default_index')), array (  '_controller' => 'StudyApp\\LocationBundle\\Controller\\DefaultController::indexAction',));
+            }
+
+            // studyapp_firm_default_index
+            if (preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'studyapp_firm_default_index')), array (  '_controller' => 'StudyApp\\FirmBundle\\Controller\\DefaultController::indexAction',));
+            }
+
+        }
+
         // studyapp_cron_cron_cron
         if ($pathinfo === '/cron') {
             return array (  '_controller' => 'StudyApp\\CronBundle\\Controller\\CronController::cronAction',  '_route' => 'studyapp_cron_cron_cron',);
@@ -111,7 +215,7 @@ class appProdUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirecta
                 return $this->redirect($pathinfo.'/', 'study_app_home');
             }
 
-            return array (  '_controller' => 'StudyApp\\StudyAppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'study_app_home',);
+            return array (  'name' => 'Anonymous',  '_controller' => 'StudyApp\\StudyAppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'study_app_home',);
         }
 
         if (0 === strpos($pathinfo, '/profile')) {

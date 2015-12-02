@@ -98,12 +98,14 @@ class FirmController extends Controller
             $limit,
             $offset
         );
-
         foreach ($collection as $building) {
             $item = Tool::toArray($building);
             $response['list'][] = $item;
         }
-        $response['total'] = current($this->getDoctrine()->getEntityManager()->createQuery('SELECT COUNT(c.id) FROM StudyAppFirmBundle:Firm AS c WHERE ' . $this->_decodeTotalFilter($query_filter))->getSingleResult());
+        $sql = 'SELECT COUNT(c.id) FROM StudyAppFirmBundle:Firm AS c WHERE ' . $this->_decodeTotalFilter($query_filter);
+
+        $response['total'] = current($this->getDoctrine()->getEntityManager()->createQuery($sql)->getSingleResult());
+
         $response['page'] = $page;
         $response['items_per_page'] = $limit;
         if (!count($response['list'])) {
@@ -120,7 +122,7 @@ class FirmController extends Controller
     {
         $buf = array();
         foreach ($filter as $key => $item) {
-            if (is_string($item)) {
+            if (!is_array($item)) {
                 $item = str_replace("'", '`', strval($item));
                 $buf[] = "c.{$key} = '$item'";
             } elseif(is_array($item)) {

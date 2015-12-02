@@ -15,8 +15,8 @@ class __TwigTemplate_7971d14c357ee86ea863c059c2304ce036acb79679fcf64dbc76bcb1c8a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_17ec63d27f3ab76e26bb8a5ee232b91e03de86ebc643f00182b74409ac501b8d = $this->env->getExtension("native_profiler");
-        $__internal_17ec63d27f3ab76e26bb8a5ee232b91e03de86ebc643f00182b74409ac501b8d->enter($__internal_17ec63d27f3ab76e26bb8a5ee232b91e03de86ebc643f00182b74409ac501b8d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "StudyAppStudyAppBundle:Default:index.html.twig"));
+        $__internal_7faef694f6b9de4a8834d2396be64ad3d28ab6473c6ebc7e5b3dd064e87e2a2c = $this->env->getExtension("native_profiler");
+        $__internal_7faef694f6b9de4a8834d2396be64ad3d28ab6473c6ebc7e5b3dd064e87e2a2c->enter($__internal_7faef694f6b9de4a8834d2396be64ad3d28ab6473c6ebc7e5b3dd064e87e2a2c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "StudyAppStudyAppBundle:Default:index.html.twig"));
 
         // line 1
         $this->loadTemplate("StudyAppStudyAppBundle:Default:api_test.html.twig", "StudyAppStudyAppBundle:Default:index.html.twig", 1)->display($context);
@@ -25,7 +25,7 @@ class __TwigTemplate_7971d14c357ee86ea863c059c2304ce036acb79679fcf64dbc76bcb1c8a
 
 ";
         
-        $__internal_17ec63d27f3ab76e26bb8a5ee232b91e03de86ebc643f00182b74409ac501b8d->leave($__internal_17ec63d27f3ab76e26bb8a5ee232b91e03de86ebc643f00182b74409ac501b8d_prof);
+        $__internal_7faef694f6b9de4a8834d2396be64ad3d28ab6473c6ebc7e5b3dd064e87e2a2c->leave($__internal_7faef694f6b9de4a8834d2396be64ad3d28ab6473c6ebc7e5b3dd064e87e2a2c_prof);
 
     }
 

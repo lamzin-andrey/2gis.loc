@@ -119,15 +119,9 @@ class __TwigTemplate_f00be7a214af8ee09a1b43a8a4a099560864475cf5c95c666535264df8b
             echo "</a>
 \t    </div>
 \t    <div id=\"navbar\" class=\"collapse navbar-collapse\">
-          <ul class=\"nav navbar-nav\">
-            <li class=\"active\"><a href=\"";
-            // line 31
-            echo $this->env->getExtension('routing')->getPath("study_app_signup");
-            echo "\">";
-            echo $this->env->getExtension('translator')->getTranslator()->trans("Sign Up", array(), "messages");
-            echo "</a></li>
-          </ul>
-        </div>
+          ";
+            // line 33
+            echo "        </div>
     </div><!-- /.container -->
 </nav><!-- /.navbar -->
 ";
@@ -181,6 +175,6 @@ class __TwigTemplate_f00be7a214af8ee09a1b43a8a4a099560864475cf5c95c666535264df8b
 
     public function getDebugInfo()
     {
-        return array (  173 => 56,  160 => 46,  156 => 45,  150 => 44,  141 => 40,  136 => 37,  125 => 31,  116 => 27,  111 => 24,  109 => 23,  106 => 22,  100 => 17,  96 => 16,  92 => 15,  87 => 14,  84 => 13,  78 => 11,  74 => 10,  70 => 9,  66 => 8,  61 => 7,  58 => 6,  49 => 58,  47 => 56,  42 => 53,  40 => 22,  35 => 19,  32 => 13,  30 => 6,  23 => 1,);
+        return array (  167 => 56,  154 => 46,  150 => 45,  144 => 44,  135 => 40,  130 => 37,  124 => 33,  116 => 27,  111 => 24,  109 => 23,  106 => 22,  100 => 17,  96 => 16,  92 => 15,  87 => 14,  84 => 13,  78 => 11,  74 => 10,  70 => 9,  66 => 8,  61 => 7,  58 => 6,  49 => 58,  47 => 56,  42 => 53,  40 => 22,  35 => 19,  32 => 13,  30 => 6,  23 => 1,);
     }
 }
