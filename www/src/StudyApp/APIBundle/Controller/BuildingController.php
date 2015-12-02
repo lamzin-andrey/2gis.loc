@@ -45,9 +45,12 @@ class BuildingController extends Controller
             $item = Tool::toArray($building);
             $response['list'][] = $item;
         }
-
         $response['total'] = current($this->getDoctrine()->getEntityManager()->createQuery('SELECT COUNT(c.id) FROM StudyAppLocationBundle:Building AS c WHERE c.is_deleted = 0 AND c.is_accepted = 1')->getSingleResult());
         $response['page'] = $page;
+        $response['items_per_page'] = $limit;
+        if (!count($response['list'])) {
+            return Tool::json404($response);
+        }
         return Tool::json($response);
     }
 }

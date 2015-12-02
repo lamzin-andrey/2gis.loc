@@ -16,3 +16,15 @@ cef672,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings,1449063291,,200
 b303e5,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings,1449064001,,500
 d10dd0,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings,1449064301,,200
 0f17ab,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/,1449064667,,200
+8db4cc,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/1,1449064930,,200
+7795e7,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449064933,,200
+165425,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449064964,,200
+81b871,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449065234,,200
+a9b503,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449065264,,404
+fa86c2,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449065304,,404
+62be50,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/1,1449065320,,200
+ce2206,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/1,1449065459,,200
+e633d2,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449065462,,200
+3fe1d5,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449065470,,200
+484f8b,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449065492,,404
+58ac00,127.0.0.1,GET,http://2gis.loc/web/app_dev.php/buildings/page/2,1449065496,,404

@@ -11,6 +11,16 @@ use Symfony\Component\HttpFoundation\Response;
 class AppLib
 {
     /**
+     * Обертка для быстрого добавлению к JSON ответу 404 статуса
+     */
+    static public function json404($data)
+    {
+        $data['message'] = '404 Not Found';
+        $response = self::json($data);
+        $response->setStatusCode(404);
+        return $response;
+    }
+    /**
      * json response
      */
     static public function json($data)
