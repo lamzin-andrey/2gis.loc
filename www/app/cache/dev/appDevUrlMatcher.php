@@ -169,6 +169,17 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             }
             not_study_app_firms:
 
+            // study_app_firms_by_id
+            if (preg_match('#^/firms/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_firms_by_id;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'study_app_firms_by_id')), array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\FirmController::firmAction',));
+            }
+            not_study_app_firms_by_id:
+
             // study_app_firms_page
             if (0 === strpos($pathinfo, '/firms/page') && preg_match('#^/firms/page/(?P<page>[^/]++)$#s', $pathinfo, $matches)) {
                 if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {

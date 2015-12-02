@@ -2,3 +2,7 @@ parameters:
     output:
       list:
         size: 10
+    degreeAsMetres:
+        Moscow:
+            lat: 63995 #градус долготы в метрах для Москвы
+            lon: 111325 #градус широты в метрах для Москвы
