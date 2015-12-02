@@ -6,13 +6,13 @@ namespace StudyApp\APIBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
-use StudyApp\LocationBundle\Entity\Building;
+use StudyApp\FirmBundle\Entity\Firm;
 use \StudyApp\StudyAppBundle\Utils\AppLib AS Tool;
 
-class BuildingController extends Controller
+class FirmController extends Controller
 {
     /**
-     * @Route("/buildings", name="study_app_buildings", requirements={ "_method" : "GET" })
+     * @Route("/firms", name="study_app_firms", requirements={ "_method" : "GET" })
      * @Template()
      */
     public function indexAction()
@@ -21,20 +21,29 @@ class BuildingController extends Controller
     }
     /**
      * json
-     * @Route("/buildings/page/{page}", name="study_app_buildings_page", requirements={ "_method" : "GET" })
+     * @Route("/firms/page/{page}", name="study_app_firms_page", requirements={ "_method" : "GET" })
      * Template("StudyAppAPIBundle:Default:index.html.twig")
     */
     public function pageAction($page)
     {
+        $request = $this->container->get('request_stack')->getCurrentRequest();
+        $filter = $request->get('filter');
+
+        $query_filter = array();
+        if (is_array($filter)) {
+            if (isset($filter['building_id']) && (int)$filter['building_id'] > 0) {
+                $query_filter['building_id'] = (int)$filter['building_id'];
+            }
+        }
         $page = (int)$page;
         $page = $page ? $page : 1;
         $limit = $this->container->getParameter('output')['list']['size'];
         $offset = ($page - 1) * $limit;
         $response = array();
         $response['list'] = array();
-        $collection = $this->getDoctrine()->getRepository('StudyAppLocationBundle:Building')->findBy(
-            [],
-            array('id' => 'desc'),
+        $collection = $this->getDoctrine()->getRepository('StudyAppFirmBundle:Firm')->findBy(
+            $query_filter,
+            array('id' => 'asc'),
             $limit,
             $offset
         );

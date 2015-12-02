@@ -1,0 +1,4 @@
+parameters:
+    output:
+      list:
+        size: 10

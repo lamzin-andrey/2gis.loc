@@ -43,6 +43,11 @@
         <parameter key="app_secret">a9a6ff8a6fdd58f91777e7cd51b5523a</parameter>
       </parameter>
     </parameter>
+    <parameter key="output" type="collection">
+      <parameter key="list" type="collection">
+        <parameter key="size">10</parameter>
+      </parameter>
+    </parameter>
     <parameter key="database_host">127.0.0.1</parameter>
     <parameter key="database_port">null</parameter>
     <parameter key="database_name">2gis</parameter>
@@ -1989,7 +1994,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>565ef30069d04</argument>
+            <argument>565eff226611f</argument>
           </service>
         </argument>
       </argument>
@@ -2252,7 +2257,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>565ef30069d04</argument>
+            <argument>565eff226611f</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
