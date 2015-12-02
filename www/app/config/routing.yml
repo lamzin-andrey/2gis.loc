@@ -1,3 +1,8 @@
+study_app_api:
+    resource: "@StudyAppAPIBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 study_app_location:
     resource: "@StudyAppLocationBundle/Controller/"
     type:     annotation

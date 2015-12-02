@@ -4,6 +4,7 @@ namespace StudyApp\LocationBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
  * Building
  *
@@ -261,7 +262,6 @@ class Building
 
         return $this;
     }
-
     /**
      * Get is_deleted
      *

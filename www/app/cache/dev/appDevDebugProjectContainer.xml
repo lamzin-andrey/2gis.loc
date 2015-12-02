@@ -26,6 +26,7 @@
       <parameter key="StudyAppFirmBundle">StudyApp\FirmBundle\StudyAppFirmBundle</parameter>
       <parameter key="DoctrineMigrationsBundle">Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle</parameter>
       <parameter key="StudyAppLocationBundle">StudyApp\LocationBundle\StudyAppLocationBundle</parameter>
+      <parameter key="StudyAppAPIBundle">StudyApp\APIBundle\StudyAppAPIBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -1988,7 +1989,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>565ed3e45ffc4</argument>
+            <argument>565ef30069d04</argument>
           </service>
         </argument>
       </argument>
@@ -2251,7 +2252,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>565ed3e45ffc4</argument>
+            <argument>565ef30069d04</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -3361,6 +3362,10 @@
       <call method="addPath">
         <argument>/opt/lampp/htdocs/2gis.loc/www/src/StudyApp/LocationBundle/Resources/views</argument>
         <argument>StudyAppLocation</argument>
+      </call>
+      <call method="addPath">
+        <argument>/opt/lampp/htdocs/2gis.loc/www/src/StudyApp/APIBundle/Resources/views</argument>
+        <argument>StudyAppAPI</argument>
       </call>
       <call method="addPath">
         <argument>/opt/lampp/htdocs/2gis.loc/www/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
