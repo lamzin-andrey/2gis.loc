@@ -193,6 +193,31 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        if (0 === strpos($pathinfo, '/rubrics')) {
+            // study_app_rubrics_branch
+            if (preg_match('#^/rubrics/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_rubrics_branch;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'study_app_rubrics_branch')), array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\RubricController::treeAction',));
+            }
+            not_study_app_rubrics_branch:
+
+            // study_app_rubrics
+            if ($pathinfo === '/rubrics') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_study_app_rubrics;
+                }
+
+                return array (  '_controller' => 'StudyApp\\APIBundle\\Controller\\RubricController::indexAction',  '_route' => 'study_app_rubrics',);
+            }
+            not_study_app_rubrics:
+
+        }
+
         if (0 === strpos($pathinfo, '/hello')) {
             // studyapp_location_default_index
             if (preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {

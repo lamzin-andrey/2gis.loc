@@ -64,7 +64,7 @@ class FirmController extends Controller
                 $query_filter['building_id'] = (int)$filter['building_id'];
             }
             if (isset($filter['rubric_id']) && (int)$filter['rubric_id'] > 0) {
-                $buf = $this->_getFirmInRubric((int)$filter['rubric_id']);//TODO it and move to model
+                $buf = $this->_getFirmInRubric((int)$filter['rubric_id']);
                 if(count($buf)) {
                     $query_filter['id'] = $buf;
                 }
@@ -77,6 +77,12 @@ class FirmController extends Controller
                             $query_filter['building_id']  = $buf;
                         }
                     }
+                }
+            }
+            if (isset($filter['name']) && strlen($filter['name']) > 0) {
+                $buf = $this->_getFirmByName($filter['name']);
+                if(count($buf)) {
+                    $query_filter['id'] = $buf;
                 }
             }
         }
@@ -148,6 +154,24 @@ class FirmController extends Controller
 
         $result = $this->getDoctrine()->getEntityManager()->createQuery(
             "SELECT c.id FROM StudyAppLocationBundle:Building AS c WHERE c.latitude <= {$right} AND c.latitude >= {$left} AND c.longitude <= {$bottom} AND c.longitude >= {$top}")
+            ->getResult();
+        $data = array();
+        foreach ($result as $item) {
+            if (is_array($item) && isset($item['id'])) {
+                $data[] = $item['id'];
+            }
+        }
+        return $data;
+    }
+    /**
+     * @param string $name
+     * @return Массив идентификаторов зданий в области радиусом radius вокруг точки latitude, longitude
+     */
+    private function _getFirmByName($name)
+    {
+        $name = str_replace("'", '`', $name);
+        $result = $this->getDoctrine()->getEntityManager()->createQuery(
+            "SELECT c.id FROM StudyAppFirmBundle:Firm AS c WHERE c.name LIKE '%{$name}%'")
             ->getResult();
         $data = array();
         foreach ($result as $item) {
