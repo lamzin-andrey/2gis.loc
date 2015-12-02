@@ -1,0 +1,21 @@
+<div class="detailBoxWide">
+    <div class="actionBox">
+        <div class="bg-danger text-danger {% if not (has_errors) %}hide {% endif %}" id="errorsarea">
+            {{ form_errors(form) }}
+            {{ form_errors(form.body) }}
+        </div>
+
+        <form class="form-inline w100" role="form" action="{{ path('study_app_comments_add') }}" method="POST" name="commentForm">
+            <div class="form-group w80">
+                {{ form_widget(form.parent_id, {"type" : "hidden", "id" : "parent_id" }) }}
+                {{ form_widget(form.id, {"type" : "hidden", "id" : "comment_id" }) }}
+                <input type="hidden" name="_method" value="POST" id="_method"/>
+                <input type="text" placeholder="{% trans %}Your comment{% endtrans %}" class="form-control" name="comment_type[body]" id="body" >
+            </div>
+            <div class="form-group w20">
+                {{ form_widget(form._token) }}                
+                <button class="btn btn-default" id="addComment">{% trans %}Add comment{% endtrans %}</button>
+            </div>
+        </form>
+    </div>
+</div>

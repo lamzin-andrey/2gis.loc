@@ -1,0 +1,15 @@
+{% extends 'StudyAppStudyAppBundle::layout.html.twig' %}
+{% block stylesheet %}
+{{ parent() }}
+<link rel="stylesheet" type="text/css" href="{{ asset('bundles/studyappstudyapp/css/bootstrap-glyphicons.css') }}">
+{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block body %}
+	{# TODO шаблон надо перенести в бандл ApiDemo #}
+	{% include 'StudyAppCommentBundle:Default:apiform.html.twig' %}
+{% endblock %}
+
