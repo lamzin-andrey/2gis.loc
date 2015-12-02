@@ -1,6 +1,6 @@
 app/logs/*.*
 app/logs/
-app/cache
+app/cache/
 app/cache/*.*
 ../access.log
 ../error.log

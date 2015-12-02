@@ -25,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="api_test.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api_test.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/views/Default/api_test.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-129.46153">
+            <state vertical-scroll-proportion="4.125">
               <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/public/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -764,18 +754,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/views/Default/api_test.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-129.46153">
-          <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.48456058">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/public/css/app.css">
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/views/Default/api_test.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state vertical-scroll-proportion="4.125">
+          <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
           <folding />
         </state>
       </provider>
