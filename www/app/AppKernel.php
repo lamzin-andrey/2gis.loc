@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new StudyApp\CommentBundle\StudyAppCommentBundle(),
             new StudyApp\CronBundle\StudyAppCronBundle(),
             new StudyApp\FirmBundle\StudyAppFirmBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new StudyApp\LocationBundle\StudyAppLocationBundle(),
         );
 

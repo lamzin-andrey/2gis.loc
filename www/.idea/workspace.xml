@@ -22,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="messages.ru.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/translations/messages.ru.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CronController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudyApp/CronBundle/Controller/CronController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,12 +42,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudyApp/FirmBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35416666">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20151202122012.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20151202122012.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="32" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <marker date="1449055618786" expanded="true" signature="454:562" placeholder="INSERT INTO ..." />
+                <marker date="1449055618786" expanded="true" signature="590:724" placeholder="INSERT INTO ..." />
+                <marker date="1449055618786" expanded="true" signature="752:871" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20151202122751.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20151202122751.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45833334">
+              <caret line="144" column="55" selection-start-line="144" selection-start-column="55" selection-end-line="144" selection-end-column="55" />
+              <folding>
+                <element signature="e#42#89#0#PHP" expanded="true" />
+                <marker date="1449060720458" expanded="true" signature="529:649" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="677:803" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="831:966" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="1071:1197" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="1225:1346" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="1374:1496" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="1524:1648" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="1736:1869" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="1897:2024" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="2052:2172" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="2200:2343" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="2434:2560" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="2588:2715" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="2743:2885" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="2965:3088" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="3116:3263" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="3330:3454" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="3482:3615" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="3680:3879" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="3907:4115" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="4143:4350" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="5355:5495" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="5590:5695" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="5590:5718" placeholder="INSERT INTO ..." />
+                <marker date="1449060720458" expanded="true" signature="5827:5960" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/src/StudyApp/CronBundle/DependencyInjection/StudyAppCronExtension.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -77,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/scripts/cron_script.php" />
         <option value="$PROJECT_DIR$/src/StudyApp/CronBundle/Controller/CronController.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
@@ -88,6 +158,10 @@
         <option value="$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/translations/messages.ru.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/DoctrineMigrations/Version20151202122012.php" />
+        <option value="$PROJECT_DIR$/app/DoctrineMigrations/Version20151202122751.php" />
       </list>
     </option>
   </component>
@@ -103,10 +177,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
     <option name="y" value="33" />
-    <option name="width" value="1292" />
-    <option name="height" value="972" />
+    <option name="width" value="1280" />
+    <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -139,144 +212,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirmBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirmBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirmBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -288,7 +223,7 @@
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../4xxi.tz.loc/www" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -339,15 +274,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="33" width="1292" height="972" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="33" width="1280" height="966" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -378,11 +313,92 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20151202122751.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#89#0#PHP" expanded="true" />
+            <marker date="1449060720458" expanded="true" signature="529:649" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="677:803" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="831:966" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1071:1197" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1225:1346" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1374:1496" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1524:1648" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1736:1869" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1897:2024" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2052:2172" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2200:2343" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2434:2560" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2588:2715" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2743:2885" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2965:3088" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3116:3263" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3330:3454" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3482:3615" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3680:3879" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3907:4115" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="4143:4350" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5355:5495" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5590:5695" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5590:5718" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5827:5960" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/translations/messages.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/CronBundle/Controller/CronController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/CronBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="62" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/FirmBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/CronBundle/DependencyInjection/StudyAppCronExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/StudyAppBundle/Resources/translations/messages.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -443,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,13 +556,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -619,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,19 +659,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudyApp/CronBundle/DependencyInjection/StudyAppCronExtension.php">
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/FirmBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudyApp/FirmBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35416666">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20151202122012.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="32" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1449055618786" expanded="true" signature="454:562" placeholder="INSERT INTO ..." />
+            <marker date="1449055618786" expanded="true" signature="590:724" placeholder="INSERT INTO ..." />
+            <marker date="1449055618786" expanded="true" signature="752:871" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudyApp/CronBundle/DependencyInjection/StudyAppCronExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/migrations/lib/Doctrine/DBAL/Migrations/AbstractMigration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3807106">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20151202122751.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45833334">
+          <caret line="144" column="55" selection-start-line="144" selection-start-column="55" selection-end-line="144" selection-end-column="55" />
+          <folding>
+            <element signature="e#42#89#0#PHP" expanded="true" />
+            <marker date="1449060720458" expanded="true" signature="529:649" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="677:803" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="831:966" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1071:1197" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1225:1346" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1374:1496" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1524:1648" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1736:1869" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="1897:2024" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2052:2172" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2200:2343" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2434:2560" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2588:2715" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2743:2885" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="2965:3088" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3116:3263" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3330:3454" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3482:3615" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3680:3879" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="3907:4115" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="4143:4350" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5355:5495" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5590:5695" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5590:5718" placeholder="INSERT INTO ..." />
+            <marker date="1449060720458" expanded="true" signature="5827:5960" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
